@@ -25,6 +25,8 @@ body {
   text-decoration: none;
 }
 .shop-search {
+  display: flex;
+  gap: 12px;
 }
 .head-dood-text {
   background-color: rgba(255, 255, 255, 1);
@@ -757,7 +759,7 @@ body {
   gap: 16px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 680px) {
   .menu {
     display: none;
   }
@@ -831,7 +833,7 @@ body {
     display: none;
   }
 
-  @media (max-width: 540px) {
+  @media (max-width: 0px) {
     .all-box {
       flex-direction: column;
     }
