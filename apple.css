@@ -24,7 +24,8 @@ body {
   color: #000000;
   text-decoration: none;
 }
-
+.shop-search {
+}
 .head-dood-text {
   background-color: rgba(255, 255, 255, 1);
   width: 100%;
@@ -526,7 +527,49 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+.carrier {
+  background-image: url(carrier.png);
+  width: calc(50% - 6px);
+  height: 580px;
+  background-position: center;
+  background-repeat: none;
+  display: none;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+}
+.carrier-dotroh-text {
+  padding-top: 401px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carrier-text {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+.dollor {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+.Find-your-deal {
+  width: 167px;
+  height: 40px;
+  gap: 16px;
+  border-radius: 999px;
+  padding: 0%;
+  bottom: 10px;
+  margin-left: 16px;
+  gap: 10px;
+  background-color: #0071e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
 .Trade-in {
   background-image: url(trade\ in.png);
   height: 580px;
@@ -645,7 +688,76 @@ body {
   align-items: center;
   color: rgba(41, 151, 255, 1);
 }
-@media (max-width: 768px) {
+.scroll {
+  width: 100%;
+  padding-top: 12px;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.slide-scroll {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+.photos {
+  display: flex;
+  gap: 16px;
+}
+.scroll-2 {
+  width: 100%;
+  padding-top: 24px;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.slide-scroll-2 {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+}
+.photos-2 {
+  display: flex;
+  gap: 16px;
+}
+.tablet {
+  width: 100%;
+  padding-top: 24px;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: none;
+}
+.scroll-tablet {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  display: none;
+}
+.photos-tablet {
+  display: flex;
+  gap: 16px;
+}
+.phone {
+  width: 100%;
+  padding-top: 24px;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: none;
+}
+.scroll-phone {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  display: none;
+}
+.photos-phone {
+  display: flex;
+  gap: 16px;
+}
+
+@media (max-width: 960px) {
   .menu {
     display: none;
   }
@@ -670,10 +782,16 @@ body {
   .iPhone-16 {
     width: 100%;
   }
+  .apple-gift {
+    display: none;
+  }
   .iPad-air {
     width: 100%;
   }
   .Airpods-pro2 {
+    background-image: url(airpod.jpg);
+  }
+  .card {
     display: none;
   }
 
@@ -690,17 +808,30 @@ body {
     display: flex;
     text-align: center;
   }
+  .carrier {
+    display: block;
+    background-repeat: no-repeat;
+  }
   .pro2 {
     background-size: cover;
     background-position: center;
-    display: block;
   }
   .Iconic-Now-supersonic {
     height: 69px;
     display: flex;
     justify-content: center;
   }
-  @media (max-width: 390px) {
+  .tablet {
+    display: block;
+  }
+  .scroll-tablet {
+    display: block;
+  }
+  .scroll {
+    display: none;
+  }
+
+  @media (max-width: 540px) {
     .all-box {
       flex-direction: column;
     }
@@ -715,6 +846,7 @@ body {
     }
     .apple-gift {
       width: 100%;
+      display: none;
     }
     .iPad-air {
       width: 100%;
@@ -723,6 +855,9 @@ body {
       width: 100%;
       background-image: url(airpod.jpg);
     }
+    .pro2 {
+      width: 100%;
+    }
     .Watch {
       width: 100%;
       background-image: url(ipad\ watch\ photo.png);
@@ -730,143 +865,26 @@ body {
     .Macbook-air {
       width: 100%;
     }
+    .small-business {
+      width: 100%;
+    }
+    .carrier {
+      width: 100%;
+    }
     .Trade-in {
       width: 100%;
     }
     .card {
-      width: 100%;
-      background-image: url(ipad\ watch\ photo.png);
+      display: none;
+    }
+    .phone {
+      display: block;
+    }
+    .scroll-phone {
+      display: block;
+    }
+    .tablet {
+      display: none;
     }
   }
-}
-
-.head-text {
-  width: 100%;
-  height: 44px;
-  gap: 24px;
-  background-color: rgba(245, 245, 247, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.head-dood-text {
-  background-color: rgba(255, 255, 255, 1);
-  width: 100%;
-  height: 52px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  gap: 4px;
-}
-.iphone-16-pro {
-  width: 100%;
-  height: 692px;
-  background-image: url(iphone\ 16pro.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.iPhone-16 {
-  margin-top: 10px;
-  width: 100%;
-  height: 692px;
-  background-image: url(iphone\ 16.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.apple-gift {
-  margin-top: 10px;
-  width: 100%;
-  height: 692px;
-  background-image: url(apple\ gift.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.apple-gift-text {
-  padding-top: 446px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.all-box {
-  display: flex;
-  width: 100%;
-  height: 1764px;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-@media (max-width: 700px) {
-  .all-box {
-    flex-direction: column;
-  }
-  .iphone-16-pro {
-    width: 100%;
-  }
-  .iPhone-16 {
-    width: 100%;
-  }
-  .apple-gift {
-    width: 100%;
-  }
-  .iPad-air {
-    width: 100%;
-  }
-  .Airpods-pro2 {
-    width: 100%;
-  }
-  .Watch {
-    width: 100%;
-  }
-  .Macbook-air {
-    width: 100%;
-  }
-  .Trade-in {
-    width: 100%;
-  }
-  .card {
-    width: 100%;
-  }
-}
-.iPad-air {
-  background-image: url(ipad.png);
-  height: 580px;
-  width: calc(50% - 6px);
-  background-size: cover;
-  background-position: center;
-}
-.Airpods-pro2 {
-  background-image: url(airpods\ pro2\ .png);
-  height: 580px;
-  width: calc(50% - 6px);
-  background-size: cover;
-  background-position: center;
-}
-.Watch {
-  background-image: url(whatc.png);
-  height: 580px;
-  width: calc(50% - 6px);
-  background-size: cover;
-  background-position: center;
-}
-.Macbook-air {
-  background-image: url(macbook.png);
-  height: 580px;
-  width: calc(50% - 6px);
-  background-size: cover;
-  background-position: center;
-}
-.Trade-in {
-  background-image: url(trade\ in.png);
-  height: 580px;
-  width: calc(50% - 6px);
-  background-size: cover;
-  background-position: center;
-}
-.card {
-  background-image: url(card.png);
-  height: 580px;
-  width: calc(50% - 6px);
-  background-size: cover;
-  background-position: center;
 }
