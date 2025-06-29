@@ -23,10 +23,14 @@ body {
 .menu a {
   color: #000000;
   text-decoration: none;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 60px;
 }
 .shop-search {
   display: flex;
   gap: 12px;
+  
 }
 .head-dood-text {
   background-color: rgba(255, 255, 255, 1);
@@ -38,6 +42,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 60px;
+  
 }
 .iphone-16-pro {
   width: 100%;
@@ -745,7 +753,7 @@ body {
   padding-top: 24px;
   box-sizing: border-box;
   overflow-x: scroll;
-  overflow-y: hidden;
+  overflow-y: hidden;`
   display: none;
 }
 .scroll-phone {
