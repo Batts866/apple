@@ -1,7 +1,7 @@
 body {
   font-family: inter;
-  background-color: white;
-  width: 1920px;
+  background-color: rgba(245, 245, 247, 1);
+  width: 100%;
 }
 .head-text {
   width: 100%;
@@ -34,23 +34,22 @@ body {
   color: #000000;
   text-decoration: none;
 }
-.shop-search{
+.shop-search {
   display: flex;
   gap: 12px;
 }
-.color-head{
+.color-head {
   background-color: white;
   width: 100%;
-  height: 104px;
 }
-.color-head-text{
+.color-head-text {
   display: flex;
   justify-content: center;
   font-weight: 400;
   font-size: 12px;
   line-height: 60px;
 }
-.store-box{
+.store-box {
   width: 100%;
   margin-top: 122px;
   height: 100px;
@@ -59,94 +58,98 @@ body {
   display: flex;
   gap: 759px;
 }
-.store-box-text{
+.store-box-text {
   display: flex;
   gap: 32px;
   font-size: 44px;
   font-weight: 700;
   font-size: 44px;
-  color: #6E6E73;
+  color: #6e6e73;
   width: 655px;
 }
-.need-shop{
- gap: 16px;
- height: 100px;
- width: 226px;
- display: flex;
- flex-wrap: wrap;
+.store-text {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #0090f7, #ba62fc, #f2416b);
+  -webkit-background-clip: text;
 }
-.need-shoping{
+.need-shop {
+  gap: 16px;
+  height: 100px;
+  width: 226px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.need-shoping {
   width: 160px;
   gap: 16px;
 }
-.Vision-an{
+.Vision-an {
   width: 160px;
   padding-left: 51px;
   gap: 16px;
 }
-.apple-photos{
+.apple-photos {
   display: flex;
-  gap:30px;
+  gap: 30px;
   margin-top: 122px;
   margin-left: 140px;
-
 }
-.Mac-photo{
+.Mac-photo {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.iPhone-photo{
+.iPhone-photo {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.iPad-photo{
+.iPad-photo {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.Apple-Watch-photo{
+.Apple-Watch-photo {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.Apple-Vision-Pro-photo{
+.Apple-Vision-Pro-photo {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.Airpods-photo{
+.Airpods-photo {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.AirTag-photo{
+.AirTag-photo {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.Apple-TV-4K{
+.Apple-TV-4K {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.Homepod-photo{
+.Homepod-photo {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.Accessories-photo{
+.Accessories-photo {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.Apple-Gift-Card-photo{
+.Apple-Gift-Card-photo {
   display: flex;
   flex-direction: column;
   text-align: center;
-} 
-.the{
+}
+.the {
   margin-top: 122px;
   height: 50px;
   padding-left: 140px;
@@ -157,126 +160,137 @@ body {
   font-size: 24px;
   line-height: 32px;
 }
-.let-the{
+.the-text {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #0090f7, #ba62fc, #f2416b);
+  -webkit-background-clip: text;
+}
+.let-the {
   display: flex;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-  color: #6E6E73;
+  color: #6e6e73;
   width: 655px;
 }
-.apple-product{
+.apple-product {
+  width: 1750px;
   display: flex;
   gap: 20px;
   padding-top: 24px;
   box-sizing: border-box;
   overflow-x: scroll;
-  overflow-y: hidden; 
-  margin-left: 140px; 
-  border-radius: 20px;
+  overflow-y: hidden;
+  margin-left: 140px;
 }
-.pro{
+.pro {
   border-radius: 18px;
 }
-.pro-photo{
+.pro-photo {
   background-image: url(16pro.png);
   width: 480px;
   height: 500px;
+  border-radius: 18px;
 }
-.Pro-text{
+.Pro-text {
   gap: 20px;
 }
-.APPLE-INTELLIGENCE{
+.APPLE-INTELLIGENCE {
   font-weight: 700;
   font-size: 12px;
   line-height: 16px;
   padding-top: 32px;
-  padding-left: 32px  ;
+  padding-left: 32px;
 }
-.iphone-{
+.iphone- {
   font-weight: 700;
   font-size: 26px;
   line-height: 32px;
   letter-spacing: 0.2px;
   padding-left: 30px;
 }
-.From-{
+.From- {
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
   padding-top: 12px;
   padding-left: 30px;
 }
-.watch-{
+.watch- {
   background-image: url(apple\ watch.png);
   width: 480px;
   height: 500px;
+  border-radius: 18px;
 }
-.Series{
+.Series {
   font-weight: 700;
   font-size: 26px;
   line-height: 32px;
   padding-top: 54px;
   padding-left: 30px;
 }
-.text-watch--{
+.text-watch-- {
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
   padding-top: 12px;
   padding-left: 30px;
 }
-.ipad-{
+.ipad- {
   background-image: url(apple\ ipad.png);
   width: 480px;
   height: 500px;
+  border-radius: 18px;
 }
-.ipad-text1{
+.ipad-text1 {
   font-weight: 700;
   font-size: 12px;
   line-height: 16px;
   padding-top: 31px;
   padding-left: 30px;
 }
-.ipad-text2{
+.ipad-text2 {
   font-weight: 700;
   font-size: 26px;
   line-height: 32px;
   padding-left: 30px;
 }
-.ipad-text3{
+.ipad-text3 {
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
   padding-top: 12px;
   padding-left: 30px;
 }
-.macbook-{
-  background-image: url(apple\ ipad.png);
+.macbook- {
+  background-image: url(macbook.jpg);
   width: 480px;
   height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
 }
-.macbook-text-1{
+.macbook-text-1 {
   font-weight: 700;
   font-size: 12px;
   line-height: 16px;
   padding-top: 31px;
   padding-left: 30px;
 }
-.macbook-text-2{
+.macbook-text-2 {
   font-weight: 700;
   font-size: 26px;
   line-height: 32px;
   padding-left: 30px;
 }
-.macbook-text-3{
+.macbook-text-3 {
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
   padding-top: 12px;
   padding-left: 30px;
 }
-.personal{
+.personal {
   margin-top: 60px;
   height: 50px;
   padding-left: 140px;
@@ -287,16 +301,381 @@ body {
   font-size: 24px;
   line-height: 32px;
 }
-.Personalization-text{
+.Personalization-text {
   font-weight: 700;
   font-size: 24px;
-  line-height: 32px; 
+  line-height: 32px;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #0090f7, #ba62fc, #f2416b);
+  -webkit-background-clip: text;
 }
-.let-them{
+.let-them {
   display: flex;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-  color: #6E6E73;
+  color: #6e6e73;
   width: 655px;
+}
+.Airpods_ {
+  width: 1750px;
+  gap: 20px;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-left: 140px;
+}
+.make-their-gift {
+  width: 400px;
+  height: 500px;
+  background-repeat: no-repeat;
+  border-radius: 18px;
+  flex-shrink: 0;
+  position: relative;
+}
+.Airpods_text-1 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  width: 197px;
+  height: 66px;
+  padding-top: 53px;
+  padding-left: 30px;
+  position: absolute;
+}
+.position-absolute {
+  position: absolute;
+}
+.Airpods-max {
+  width: 313px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  flex-shrink: 0;
+}
+.Airpods-max-text0 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 71px;
+}
+.airpods-max-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+.Free-Engraving {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b64400;
+}
+.Airpods-max-text2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+.Airpods-max-text3 {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 48px;
+}
+.Airpods-pro {
+  width: 313px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  flex-shrink: 0;
+}
+.Airpods-pro-text0 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 71px;
+}
+.airpods-pro-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  padding-top: 58px;
+}
+.Free-Engraving {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b64400;
+}
+.Airpods-pro-text2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+.Airpods-pro-text3 {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 48px;
+}
+.Airpods-pro4 {
+  width: 313px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  flex-shrink: 0;
+}
+.Airpods-pro4-text0 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 71px;
+}
+.airpods-pro4-text1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+}
+.airpods-pro4-text {
+  padding-top: 58px;
+  padding-left: 50px;
+}
+.Free-Engraving {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b64400;
+}
+.Airpods-pro4-text2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+.Airpods-pro4-text3 {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 48px;
+}
+.penchil-pro {
+  width: 313px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  flex-shrink: 0;
+}
+.penchil-pro-text0 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 71px;
+}
+.penchil-pro-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 58px;
+  margin-right: 100px;
+}
+.Free-Engraving {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b64400;
+}
+.penchil-pro-text2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+.penchil-pro-text3 {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 48px;
+}
+.penchil-pro4 {
+  width: 313px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  flex-shrink: 0;
+}
+.penchil-pro4-text0 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 71px;
+}
+.penchil-pro4-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+  padding-top: 58px;
+}
+.Free-Engraving {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b64400;
+}
+.penchil-pro4-text2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+.penchil-pro4-text3 {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 48px;
+}
+.Airpods-pro {
+  width: 313px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+.Airpods-pro-text0 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 71px;
+}
+.airpods-pro-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  padding-top: 58px;
+}
+.Free-Engraving {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b64400;
+}
+.Airpods-pro-text2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+.Airpods-pro-text3 {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 48px;
+}
+.Airpods-pro4 {
+  width: 313px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+.Airpods-pro4-text0 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 71px;
+}
+.airpods-pro4-text1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+}
+.airpods-pro4-text {
+  padding-top: 58px;
+}
+.Free-Engraving {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b64400;
+}
+.Airpods-pro4-text2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+.Airpods-pro4-text3 {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 48px;
+}
+.penchil-pro {
+  width: 313px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+.penchil-pro-text0 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 71px;
+}
+.penchil-pro-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+  padding-top: 58px;
+}
+.Free-Engraving {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b64400;
+}
+.penchil-pro-text2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+.penchil-pro-text3 {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 48px;
+}
+.penchil-pro4 {
+  width: 313px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+.penchil-pro4-text0 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 71px;
+}
+.penchil-pro4-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+  padding-top: 58px;
+}
+.Free-Engraving {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b64400;
+}
+.penchil-pro4-text2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+.penchil-pro4-text3 {
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 48px;
 }
