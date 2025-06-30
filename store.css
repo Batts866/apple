@@ -364,6 +364,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-right: 50px;
+  margin-left: 40px;
 }
 .Free-Engraving {
   font-weight: 700;
@@ -678,4 +679,12 @@ body {
   font-size: 14px;
   line-height: 18px;
   padding-top: 48px;
+}
+.dollor79{
+  padding-top: 6px;
+}
+.bag{
+  width: 480px;
+  height: 500px;
+  border-radius: 18px;
 }
