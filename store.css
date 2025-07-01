@@ -1,7 +1,8 @@
 body {
   font-family: inter;
   background-color: rgba(245, 245, 247, 1);
-  width: 100%;
+  width: 1920px;
+  height: 4581px;
 }
 .head-text {
   width: 100%;
@@ -315,7 +316,6 @@ body {
   font-size: 24px;
   line-height: 32px;
   color: #6e6e73;
-  width: 655px;
 }
 .Airpods_ {
   width: 1750px;
@@ -345,6 +345,7 @@ body {
 }
 .position-absolute {
   position: absolute;
+  border-radius: 18px;
 }
 .Airpods-max {
   width: 313px;
@@ -680,11 +681,292 @@ body {
   line-height: 18px;
   padding-top: 48px;
 }
-.dollor79{
+.dollor79 {
   padding-top: 6px;
 }
-.bag{
+.apple-bags {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 1750px;
+  margin-left: 140px;
+}
+.bag {
   width: 480px;
   height: 500px;
   border-radius: 18px;
+  position: relative;
+}
+.bag-text {
+  position: absolute;
+  width: 305px;
+  height: 130px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  top: 50px;
+  left: 30px;
+}
+.all-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin-left: 20px;
+  width: 655.99px;
+  flex-shrink: 0;
+}
+.with-box {
+  width: 313px;
+  height: 240px;
+  border-radius: 18px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.box-text {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  display: flex;
+  text-align: center;
+}
+.apple-bag-photo {
+  border-radius: 18px;
+  width: 480px;
+  height: 500px;
+}
+.apple-photo {
+  border-radius: 18px;
+}
+.bag2 {
+  margin-left: 20px;
+  position: relative;
+}
+.APPLE-TRADE-IN {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(110, 110, 115, 1);
+  position: absolute;
+  top: 31px;
+  left: 30px;
+}
+.apps-all {
+  display: flex;
+  margin-left: 122px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 1750px;
+}
+.song-text {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  top: 130px;
+  left: 30px;
+  position: absolute;
+}
+.APPLE-TV {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  position: absolute;
+  top: 32px;
+  left: 30px;
+  color: #ffffff;
+}
+.bag-text2 {
+  position: absolute;
+  width: 305px;
+  height: 130px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  top: 50px;
+  left: 30px;
+  color: #ffffff;
+}
+.-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #0090f7, #ba62fc, #f2416b);
+  -webkit-background-clip: text;
+}
+.personal2 {
+  margin-top: 0;
+  color: #6e6e73;
+  height: 50px;
+  padding-left: 140px;
+  scroll-padding-right: 140px;
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.apple_all {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 1750px;
+  gap: 345px;
+  margin-left: 140px;
+}
+.apple1 {
+  width: 400px;
+  height: 500px;
+  position: relative;
+}
+.apple1photo {
+  width: 400px;
+  height: 500px;
+  border-radius: 18px;
+  position: absolute;
+}
+.apple1-text {
+  position: absolute;
+}
+.APPLE1-TEXT1 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(110, 110, 115, 1);
+  padding-left: 30px;
+  padding-top: 31px;
+}
+.apple1-text2 {
+  width: 305px;
+  height: 100px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  padding-left: 30px;
+  padding-top: 7px;
+}
+.apple1-text3 {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  padding-left: 30px;
+  padding-top: 8px;
+}
+.apple2 {
+  width: 400px;
+  height: 500px;
+  padding-left: 20px;
+  position: relative;
+}
+.apple3-text2 {
+  color: #ffffff;
+  width: 305px;
+  height: 100px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  padding-left: 30px;
+  padding-top: 7px;
+}
+.apple4-text2 {
+  width: 305px;
+  height: 100px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  padding-left: 30px;
+  padding-top: 7px;
+}
+.Quick-Links {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  padding-top: 60px;
+  padding-left: 140px;
+}
+.Order-Status {
+  width: 125px;
+  height: 40px;
+  border-radius: 999px;
+  padding: 0%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 16px;
+  gap: 10px;
+  background-color: rgba(245, 245, 247, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  border: solid black 1px;
+}
+.Shopping-Help {
+  width: 137px;
+  height: 40px;
+  border-radius: 999px;
+  padding: 0%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 16px;
+  gap: 10px;
+  background-color: rgba(245, 245, 247, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  border: solid black 1px;
+}
+.Returns {
+  width: 91px;
+  height: 40px;
+  border-radius: 999px;
+  padding: 0%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 16px;
+  gap: 10px;
+  background-color: rgba(245, 245, 247, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  border: solid black 1px;
+}
+.Your-Saves {
+  width: 114px;
+  height: 40px;
+  border-radius: 999px;
+  padding: 0%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 16px;
+  gap: 10px;
+  background-color: rgba(245, 245, 247, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  border: solid black 1px;
+}
+.hover4 {
+  margin-left: 120px;
+  display: flex;
+  gap: 12px;
+}
+.Your-Saves a {
+  text-decoration: none;
+  color: #000000;
+}
+.Returns a {
+  text-decoration: none;
+  color: #000000;
+}
+.Shopping-Help a {
+  text-decoration: none;
+  color: #000000;
+}
+.Order-Status a {
+  text-decoration: none;
+  color: #000000;
 }

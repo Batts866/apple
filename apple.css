@@ -30,7 +30,6 @@ body {
 .shop-search {
   display: flex;
   gap: 12px;
-  
 }
 .head-dood-text {
   background-color: rgba(255, 255, 255, 1);
@@ -45,7 +44,6 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 60px;
-  
 }
 .iphone-16-pro {
   width: 100%;
@@ -109,12 +107,16 @@ body {
   margin-right: 20px;
   margin-left: 20px;
   display: flex;
-  display: flex;
   justify-content: center;
   align-items: center;
   color: rgba(41, 151, 255, 1);
 }
-
+.Buy:hover .Buy-text {
+  color: white;
+}
+.Buy:hover {
+  background-color: rgba(0, 113, 227, 1);
+}
 .iPhone-16 {
   margin-top: 10px;
   width: 100%;
@@ -247,9 +249,11 @@ body {
 .Learn-more-buy-3 {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .dotorh-learn-more {
   width: 115px;
+  height: 40px;
   border-radius: 999px;
   padding: 15px;
   margin-top: 10px;
@@ -259,19 +263,7 @@ body {
   text-align: center;
   color: #ffffff;
 }
-.dotroh-buy {
-  width: 68px;
-  height: 40px;
-  border-radius: 999px;
-  border: solid 1px;
-  margin-left: 20px;
-  gap: 10px;
-  border-color: rgba(41, 151, 255, 1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgba(41, 151, 255, 1);
-  margin-top: 10px;
+.Buy {
 }
 .ipad-Hello-Apple-Intelligence {
   font-weight: 500;
@@ -312,6 +304,15 @@ body {
   display: flex;
   justify-content: center;
 }
+.AirPods-Pro-4-text {
+  padding-top: 401px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+}
 .Iconic-Now-supersonic {
   height: 69px;
   text-align: center;
@@ -332,22 +333,9 @@ body {
   align-items: center;
   color: #ffffff;
 }
-.buy-5 {
-  width: 68px;
+.Buy {
+  margin-top: 0;
   height: 40px;
-  border-radius: 999px;
-  border: solid 1px;
-  padding: 0%;
-  margin-right: 20px;
-  margin-bottom: 0;
-  margin-left: 20px;
-  gap: 10px;
-  display: flex;
-  border-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
 }
 .Watch {
   background-image: url(whatc.png);
@@ -409,23 +397,7 @@ body {
   align-items: center;
   color: #ffffff;
 }
-.buy-6 {
-  width: 68px;
-  height: 40px;
-  border-radius: 999px;
-  border: solid 1px;
-  padding: 0%;
-  margin-top: 12px;
-  margin-right: 20px;
-  margin-bottom: 12px;
-  margin-left: 20px;
-  gap: 10px;
-  display: flex;
-  border-color: rgba(41, 151, 255, 1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgba(41, 151, 255, 1);
+.Buy {
 }
 .Macbook-air {
   background-image: url(macbook.png);
@@ -475,22 +447,7 @@ body {
   align-items: center;
   color: #ffffff;
 }
-.buy-7 {
-  width: 68px;
-  height: 40px;
-  border-radius: 999px;
-  border: solid 1px;
-  padding: 0%;
-  margin-top: 12px;
-  margin-right: 20px;
-  margin-bottom: 12px;
-  margin-left: 20px;
-  gap: 10px;
-  border-color: rgba(41, 151, 255, 1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgba(41, 151, 255, 1);
+.Buy {
 }
 .small-business {
   background-image: url(small\ business\ background.png);
@@ -698,6 +655,12 @@ body {
   align-items: center;
   color: rgba(41, 151, 255, 1);
 }
+.apple-now:hover {
+  background-color: rgba(41, 151, 255, 1);
+}
+.apple-now:hover .apple-now-text {
+  color: white;
+}
 .scroll {
   width: 100%;
   padding-top: 12px;
@@ -753,7 +716,7 @@ body {
   padding-top: 24px;
   box-sizing: border-box;
   overflow-x: scroll;
-  overflow-y: hidden;`
+  overflow-y: hidden;
   display: none;
 }
 .scroll-phone {
@@ -800,9 +763,16 @@ body {
   }
   .Airpods-pro2 {
     background-image: url(airpod.jpg);
+    display: none;
+  }
+  .Now-with-a-Hearing-Aid-feature-2 {
+    display: none;
   }
   .card {
     display: none;
+  }
+  .Iconic-Now-supersonic {
+    display: block;
   }
 
   .Iconic-Now-supersonic {
@@ -825,6 +795,7 @@ body {
   .pro2 {
     background-size: cover;
     background-position: center;
+    display: block;
   }
   .Iconic-Now-supersonic {
     height: 69px;
