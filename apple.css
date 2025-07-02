@@ -160,17 +160,25 @@ body {
   align-items: center;
   justify-content: center;
 }
-.Buy-iphone-16 {
+.Buy2 {
   width: 68px;
   height: 44px;
   border-radius: 999px;
   border: solid 1px;
-  border-color: #ffffff;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 0%;
+
+  margin-right: 20px;
   margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.Buy2:hover .Buy-text {
+  color: black;
+}
+.Buy2:hover {
+  background-color: #ffffff;
 }
 .apple-gift {
   margin-top: 10px;
@@ -758,6 +766,9 @@ body {
   .apple-gift {
     display: none;
   }
+  .Watch {
+    background-image: url(ipad\ watch\ photo.png);
+  }
   .iPad-air {
     width: 100%;
   }
@@ -812,7 +823,7 @@ body {
     display: none;
   }
 
-  @media (max-width: 0px) {
+  @media (max-width: 540px) {
     .all-box {
       flex-direction: column;
     }
